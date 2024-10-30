@@ -1,0 +1,107 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+:root {
+    --global-color-1: #800000;
+}
+
+#town-hall{
+    height: 80px;
+}
+
+.speakers{
+    height: 75px;
+    width: 75px;
+}
+
+/* the styles for the elements */
+
+html{
+    background-color: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffded;
+}
+
+h1{
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+a:hover, a:focus {
+    font-style: italic;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px #800000;
+}
+
+/* the styles for the header */
+
+header{
+    border-bottom:3px solid #931420;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+main h1 {
+	font-size: 150%;
+    border: 3px double black;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* the styles for the footer */
+
+footer{
+    background-color: #931420;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
