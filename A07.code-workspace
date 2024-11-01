@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/images"
+		},
+		{
+			"path": "../../../Desktop/speakers"
+		},
+		{
+			"path": "../../../Desktop/styles"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "A07"
+	}
+}
